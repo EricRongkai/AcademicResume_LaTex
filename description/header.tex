@@ -1,0 +1,19 @@
+\newcommand{\paint}[3]{
+    \begin{minipage}{#1}
+        \includegraphics[width=#1,height=#2]{#3}
+    \end{minipage} 
+}
+\newcommand{\myheader}{
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}rr}
+  && \multirow{4}*{\paint{2.5cm}{3cm}{./image.jpg}}\\
+  \specialrule{0em}{0pt}{0pt}
+  \textbf{\href{http://EricRongkai.github.io}{\CJKfontspec{微软雅黑}[Scale=2] 刘镕恺}} & 13124758587$\,${\color{labelgrey}(电话)} &\\
+   & \href{mailto:zhangzc@pku.edu.cn}{rongkai@mail.ustc.edu.cn}$\,${\color{labelgrey}(邮件)} & \\
+   \textbf{求职意向-人机交互与机器人方向研究员} \quad& \href{mailto:zhangzc@pku.edu.cn}{http://EricRongkai.github.io}$\, ${\color{labelgrey}(个人主页)} & \\
+  \end{tabular*}\\\vspace{0.1in}
+%  \fancyfoot[L]{\footnotesize 最后更新: \today}
+%  \fancyfoot[R]{\footnotesize \url{http://example.com/resume-zh.pdf}}
+}
+
+\myheader
+

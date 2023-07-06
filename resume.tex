@@ -1,0 +1,32 @@
+%!TEX program = xelatex
+\documentclass[11pt]{article}
+\usepackage{ragged2e}
+\input{format.cls}
+
+\begin{document}
+% \begin{CJK*}{UTF8}{gbsn} % uncomment  for sharelatex.com
+\newfontfamily\myfont{KaiTi}
+
+\input{description/header}
+\input{description/introduction}
+\input{description/education}
+\input{description/company}
+\input{description/awards}
+\input{description/others}
+\input{description/viewpoint}
+%\input{description/stocks}
+%\input{description/target}
+%\input{description/projects}
+
+% \end{CJK*}
+
+\newpage
+
+\input{descriptionInEnglish/header}
+\input{descriptionInEnglish/education}
+\input{descriptionInEnglish/skills}
+\input{descriptionInEnglish/company}
+\input{descriptionInEnglish/awards}
+\input{descriptionInEnglish/others}
+
+\end{document}
